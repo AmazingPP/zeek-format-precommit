@@ -1,0 +1,7 @@
+- id: zeek-format
+  name: zeek-format
+  description: zeek-format can format your zeek scripts nicely so that they don't look like crap.
+  entry: zeek-format
+  args: [-i]
+  language: python
+  files: \.(zeek|bro)$
